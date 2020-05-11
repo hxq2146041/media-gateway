@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//rtc_base/system/arch.h
+
+..//system_wrappers/include/cpu_features_wrapper.h
+stdint.h
+-
+
+/home/ubuntu/workSpace/janus-gateway/media-gateway/system_wrappers/source/cpu_features_linux.c
+stdlib.h
+-
+string.h
+-
+features.h
+-
+sys/auxv.h
+-
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+link.h
+-
+rtc_base/system/arch.h
+/home/ubuntu/workSpace/janus-gateway/media-gateway/system_wrappers/source/rtc_base/system/arch.h
+system_wrappers/include/cpu_features_wrapper.h
+/home/ubuntu/workSpace/janus-gateway/media-gateway/system_wrappers/source/system_wrappers/include/cpu_features_wrapper.h
+asm/hwcap.h
+-
+

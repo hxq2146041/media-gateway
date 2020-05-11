@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/abseil-cpp/absl/debugging/internal/demangle.h
+
+/home/ubuntu/workSpace/janus-gateway/media-gateway/third_party/abseil-cpp/absl/debugging/internal/demangle.cc
+absl/debugging/internal/demangle.h
+/home/ubuntu/workSpace/janus-gateway/media-gateway/third_party/abseil-cpp/absl/debugging/internal/absl/debugging/internal/demangle.h
+cstdint
+-
+cstdio
+-
+limits
+-
+

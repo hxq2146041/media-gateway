@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgateway_sdk.a  CMakeFiles/gateway_sdk.dir/async_queue.cc.o CMakeFiles/gateway_sdk.dir/config.cc.o CMakeFiles/gateway_sdk.dir/atomic.cc.o CMakeFiles/gateway_sdk.dir/utils.cc.o CMakeFiles/gateway_sdk.dir/error.cc.o CMakeFiles/gateway_sdk.dir/helper.cc.o CMakeFiles/gateway_sdk.dir/transports/transport.cc.o CMakeFiles/gateway_sdk.dir/transports/websockets_transport.cc.o CMakeFiles/gateway_sdk.dir/sdk/transaction.cc.o CMakeFiles/gateway_sdk.dir/sdk/gateway_client.cc.o
+/usr/bin/ranlib libgateway_sdk.a

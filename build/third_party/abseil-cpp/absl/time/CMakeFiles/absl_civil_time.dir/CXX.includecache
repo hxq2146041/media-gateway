@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time_detail.h
+cstdint
+-
+limits
+-
+ostream
+-
+type_traits
+-
+
+/home/ubuntu/workSpace/janus-gateway/media-gateway/third_party/abseil-cpp/absl/time/internal/cctz/src/civil_time_detail.cc
+absl/time/internal/cctz/include/cctz/civil_time_detail.h
+/home/ubuntu/workSpace/janus-gateway/media-gateway/third_party/abseil-cpp/absl/time/internal/cctz/src/absl/time/internal/cctz/include/cctz/civil_time_detail.h
+iomanip
+-
+ostream
+-
+sstream
+-
+
