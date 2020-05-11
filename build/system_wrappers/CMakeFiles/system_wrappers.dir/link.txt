@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsystem_wrappers.a  CMakeFiles/system_wrappers.dir/source/clock.cc.o CMakeFiles/system_wrappers.dir/source/cpu_features.cc.o CMakeFiles/system_wrappers.dir/source/cpu_info.cc.o CMakeFiles/system_wrappers.dir/source/sleep.cc.o
-/usr/bin/ranlib libsystem_wrappers.a
